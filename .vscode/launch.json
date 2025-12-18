@@ -1,0 +1,43 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "java",
+			"name": "userLogin",
+			"request": "launch",
+			"mainClass": "tasks.userLogin",
+			"projectName": "javaCode_2858e99"
+		},
+		{
+			"type": "java",
+			"name": "vowelCons",
+			"request": "launch",
+			"mainClass": "tasks.vowelCons",
+			"projectName": "javaCode_2858e99"
+		},
+		{
+			"type": "java",
+			"name": "monthCheck",
+			"request": "launch",
+			"mainClass": "tasks.monthCheck",
+			"projectName": "javaCode_2858e99"
+		},
+		{
+			"type": "java",
+			"name": "greaterNumber",
+			"request": "launch",
+			"mainClass": "tasks.greaterNumber",
+			"projectName": "javaCode_2858e99"
+		},
+		{
+			"type": "java",
+			"name": "Current File",
+			"request": "launch",
+			"mainClass": "${file}",
+			"classPaths": ["${workspaceFolder}/bin"],
+			"cwd": "${workspaceFolder}",
+			"console": "integratedTerminal",
+			"projectName": "javaCode"
+		}
+	]
+}
