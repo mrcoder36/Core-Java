@@ -20,5 +20,6 @@ public class userLogin {
         } else {
             System.out.println("Create an account");
         }
+        data.close();
     }
 }

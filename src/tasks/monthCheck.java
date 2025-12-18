@@ -49,6 +49,6 @@ public class monthCheck {
                 System.out.println("Invalid input ");
                 break;
         }
-        
+        data.close();
     }
 }

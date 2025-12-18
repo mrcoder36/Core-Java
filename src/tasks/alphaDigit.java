@@ -15,5 +15,6 @@ public class alphaDigit {
         } else {
             System.out.println("The Character is Special");
         }
+        data.close();
     }
 }

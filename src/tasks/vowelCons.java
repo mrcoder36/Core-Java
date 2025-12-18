@@ -13,6 +13,6 @@ public class vowelCons {
         } else {
             System.out.println("The Character is Consonant");
         }
-
+        data.close();
     }
 }
