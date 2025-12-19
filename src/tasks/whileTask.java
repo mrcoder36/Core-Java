@@ -15,5 +15,6 @@ public class whileTask {
 			System.out.println(count + "." + name);
 			count++;
 		}
+        data.close();
 	}
 }
