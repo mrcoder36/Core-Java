@@ -24,6 +24,6 @@ public class TDArray {
             }
             System.out.println();
         }
-
+        data.close();
     }
 }

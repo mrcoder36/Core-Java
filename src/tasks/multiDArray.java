@@ -25,6 +25,6 @@ public class multiDArray {
             }
             System.out.println();
         }
-
+        data.close();
     }
 }
