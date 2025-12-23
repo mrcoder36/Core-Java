@@ -18,6 +18,6 @@ public class stringMatching {
         } else {
             System.out.println("Not matching..");
         }
-
+        data.close();
     }
 }

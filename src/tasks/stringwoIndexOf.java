@@ -11,7 +11,6 @@ public class stringwoIndexOf {
         System.out.print("Enter the Character: ");
         char letter = data.next().charAt(0);
 
-        // System.out.println("char at " + name.indexOf(letter));
 
         int index = 0;
         for (int i = 0; i < name.length(); i++) {
@@ -21,6 +20,6 @@ public class stringwoIndexOf {
             
         }
         System.out.println("Character at " + index);
-
+        data.close();
     }
 }

@@ -12,6 +12,6 @@ public class stringIndexOf {
         char letter = data.next().charAt(0);
 
         System.out.println("char at " + name.indexOf(letter));
-
+        data.close();
     }
 }

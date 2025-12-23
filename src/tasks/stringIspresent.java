@@ -18,5 +18,6 @@ public class stringIspresent {
         } else {
             System.out.println("Character not present...");
         }
+        data.close();
     }
 }

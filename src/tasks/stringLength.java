@@ -14,5 +14,6 @@ public class stringLength {
             count++;
         }
         System.out.println("The count is " + count);
+        data.close();
     }
 }
