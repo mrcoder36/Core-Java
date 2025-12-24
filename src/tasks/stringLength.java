@@ -9,9 +9,11 @@ public class stringLength {
         String str = data.next();
 
         int count = 0;
+        int i = 0;
 
-        for (int i = 0; i < str.length(); i++) {
+        while (i < str.length()) {
             count++;
+            i++;
         }
         System.out.println("The count is " + count);
         data.close();
