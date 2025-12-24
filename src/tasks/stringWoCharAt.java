@@ -13,7 +13,5 @@ public class stringWoCharAt {
 
         char charArr[] = str.toCharArray();
         System.out.println("The character at index " + index + " is " + charArr[index]);
-
-
     }
 }
