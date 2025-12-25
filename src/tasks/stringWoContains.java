@@ -26,6 +26,7 @@ public class stringWoContains {
         } else {
             System.out.println("The character is not present..");
         }
+        data.close();
     }
 
 }
