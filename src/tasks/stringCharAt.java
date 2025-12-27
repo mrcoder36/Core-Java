@@ -18,5 +18,6 @@ public class stringCharAt {
         } else {
             System.out.println("The character '" + ch + "' is not present in the string.");
         }
+        data.close();
     }
 }
