@@ -9,6 +9,7 @@ public class sumMethod {
         int n = data.nextInt();
         System.out.print("Enter the 2nd number: ");
         int m = data.nextInt();
+        
 
         System.out.println("choose: + , - , * , /");
         String choice = data.next();
@@ -29,6 +30,7 @@ public class sumMethod {
             default:
                 System.out.println("Invalid Input..");
                 break;
+
         }
         
     }
@@ -46,5 +48,9 @@ public class sumMethod {
 
     static int div(int a, int b) {
         return a / b;
+    }
+
+    int sample(int a) {
+        return a; 
     }
 }
