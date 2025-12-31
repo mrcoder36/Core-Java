@@ -1,4 +1,11 @@
 package oops;
+
+class company {
+    void display(int a) {
+        System.out.println("this is Fortune cloud...");
+    }
+}
+
 class parent {
     void p() {
         System.out.println("THis is parent class..");
@@ -32,5 +39,8 @@ public class hybridInherit {
         child1 obj2 = new child1();
         obj2.c1();
         
+        // Accessing company display method
+        company comp = new company();
+        comp.display(1);
     }
 }
