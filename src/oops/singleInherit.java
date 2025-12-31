@@ -15,7 +15,7 @@ class child extends parent {
 public class singleInherit {
     public static void main(String[] args) {
         child obj = new child();
-	obj.demo();
-	obj.show();
+	    obj.demo();
+	    obj.show();
     }
 }
