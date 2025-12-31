@@ -7,7 +7,7 @@ class company {
 }
 
 class parent {
-    void p() {
+    static void p() {
         System.out.println("THis is parent class..");
     }
 }
@@ -26,6 +26,7 @@ class child2 extends parent {
 
 class subchild extends child2 {
     void sc() {
+        super.p();
         System.out.println("THis is subchild class..");
     }
 }
@@ -33,9 +34,10 @@ class subchild extends child2 {
 public class hybridInherit {
     public static void main(String[] args) {
         subchild obj = new subchild();
-        obj.p();
+        parent.p();
         obj.c2();
         obj.sc();
+        // p();
         child1 obj2 = new child1();
         obj2.c1();
 
