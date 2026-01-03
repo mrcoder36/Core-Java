@@ -7,7 +7,7 @@ public class fibonacciNumber {
     }
 
     void fib() {
-        int num1 = 0;
+        var num1 = 0;
         int num2 = 1;
         int num3;
         for (int i = 1; i < 15; i++) {
